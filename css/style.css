@@ -416,7 +416,7 @@ body {
     .header {
         min-height: 94px;
         margin-top: 10px;
-        display: fixed;
+        position: fixed;
     }
 
     .logo {
