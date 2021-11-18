@@ -1,0 +1,483 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    min-width: 280px;
+    background-color: #fff;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.header {
+    min-height: 171px;
+}
+
+.wrapper {
+    max-width: 1770px;
+    margin: 0 auto;
+}
+
+@media (max-width: 380px) {
+    .wrapper {
+        max-width: 290px;
+        min-height: 94px;
+        margin: 0 auto;
+    }
+}
+
+.logo{
+    padding-top: 10px;
+}
+
+.banner__inner-subtitle {
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.banner__inner-title {
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 84px;
+}
+
+@media (max-width: 380px) {
+    .banner__inner-subtitle {
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0.2em;
+        line-height: 18px;
+        text-transform: uppercase;
+    }
+    
+    .banner__inner-title {
+        font-size: 23px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 36px;
+        letter-spacing: -1.5px;
+    }
+}
+
+.tabs__inner-item {
+    max-height: 120px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 120px;
+    border-radius: 5px;
+    position: relative; 
+}
+
+.tabs__inner-link {
+    color: #FFF;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.tabs__inner-link:hover {
+    color: #BDBDBD;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.tabs__inner-link::before {
+    display: block;
+    content: ' ';
+    border: 0;
+    border-top: 1px solid #EC0F16;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 60px;
+    left: 135px;
+}
+
+@media (max-width: 380px) {
+    .tabs__inner-item {
+        max-height: 48px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px;
+        line-height: 48px;
+    }
+
+    .tabs__block {
+        padding-bottom: 12px;
+    }
+
+    .tabs__inner-link {
+        font-weight: 600;
+    }
+
+    .tabs__inner-link::before {
+        display: block;
+        content: ' ';
+        border: 0;
+        border-top: 1px solid #EC0F16;
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        top: 23px;
+        left: 14px;
+    }
+}
+
+.menu__inner-link {
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 18px;
+}
+
+.menu__inner-link:hover {
+    color: #333333;
+    font-weight: 700;
+    text-shadow: 0px 0px 2px #333333;
+}
+
+.menu__inner-login:hover {
+    color:#CD1319 !important;
+    font-weight: 700;
+}
+
+.menu__inner-login {
+    color: #EC0F16 !important;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.menu__inner-eng {
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.menu__inner-ru {
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.menu__inner-hr {
+    border: none;
+    height: 2px;
+    background-color: #D2D2D2;
+    width: 300px;
+    position: relative;
+    top: 24px;
+}
+
+.menu__inner-eng-hr {
+    padding: 5px;
+}
+
+.contacts__usedCars-btn {
+    width: 220px;
+    height: 48px;
+    background-color: #EC0F16;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: 0px 12px;
+}
+
+.contacts__usedCars-btn:hover {
+    background-color: #CD1319;
+}
+
+.contacts__yourCar-btn {
+    font-weight: 600;
+    width: 220px;
+    height: 48px;
+    background-color: #FFF;
+    color: #EC0F16;
+    border: 1px solid #EC0F16;
+    border-radius: 5px;
+}
+
+.contacts__yourCar-btn:hover {
+    color: #CD1319;
+    border: 1px solid #CD1319;
+}
+
+.contacts__phone {
+    height: 48px;
+    width: 220px;
+    line-height: 48px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    position: relative;
+    padding-right: 20px;
+}
+
+.contacts__phone:hover {
+    color: #CD1319;
+}
+.contacts__phone:hover::before {
+    display: block;
+    content: ' ';
+    background-image: url(../img/icon/phone-red.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: -39px;
+    top: 0;
+}
+
+.contacts__phone::before {
+    display: block;
+    content: ' ';
+    background-image: url(../img/icon/phone.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: -39px;
+    top: 0;
+}
+
+.banner__inner-hr {
+    height: 2px;
+    color: #EC0F16;
+    width: 57px;
+}
+
+.search-form {
+    position: relative;
+}
+
+.search-form__field {
+    width: 427px;
+    border: 0;
+    border-bottom: 1px solid #000;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+.search-form__submit {
+    border: 0;
+    background-color: inherit;
+    background-image: url(../img/icon/search.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+}
+
+.active {
+    color: #BDBDBD !important;
+}
+
+.menu__inner-reg {
+    margin-left: 25px;
+}
+
+.menu__inner-lang {
+    margin-left: 25px;
+}
+
+.menu__modal-li {
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.menu__modal-link {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #000;
+}
+
+.menu__modal-lang-hr {
+    color: #BDBDBD;
+    line-height: 18px;
+}
+ 
+.menu__modal-eng {
+    font-size: 15px;
+    font-weight: 700;
+    color: #BDBDBD;
+    text-decoration: none;
+    line-height: 18px;
+    margin-right: 10px;
+}
+
+.menu__modal-ru {
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    line-height: 18px;
+    margin-left: 10px;
+}
+
+.menu__modal-body {
+    margin: 0;
+}
+
+.modal-dialog {
+    margin: 0;
+}
+
+.modal__icon {
+    width: 20x;
+    height: 20px;
+    background-color: transparent;
+    background-image: url(../img/icon/burger.svg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    border: 0;
+    display: none;
+}
+
+.menu__inner-li {
+    list-style-type: none;
+    padding-top: 30px;
+}
+
+.menu__inner-first {
+    padding-top: 26px;
+    border-top: 4px solid #EC0F16;
+}
+
+.menu__modal-list {
+    padding: 0;
+}
+
+.menu__modal-login {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #000;
+}
+
+.menu__modal-reg {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #000;
+}
+
+.modal-title {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000;
+}
+
+@media (max-width: 380px) {
+
+    .menu__inner-reg {
+        margin-left: 0;
+    }
+    
+    .menu__inner-lang {
+        margin-left: 0;
+    }
+
+    .header {
+        min-height: 94px;
+        margin-top: 10px;
+    }
+
+    .logo {
+        position: fixed;
+        top: 15px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        max-width: 84px;
+        max-height: 84px;
+    }
+    .contacts {
+        display: none;
+    }
+
+    .menu__mobile {
+        display: none;
+    }
+
+    .menu__inner-nav {
+        display: none;
+    }
+
+    .search-form__field {
+        display: none;
+    }
+
+    .menu__inner-link {
+        color: #000 !important;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        list-style-type: none;
+    }
+
+    .search-form {
+        position: absolute;
+        top: 43px;
+        right: 265px;
+    }
+    .menu__inner-btn {
+        position: absolute;
+        top: 15px;
+        left: 255px;
+    }
+
+    .modal__icon {
+        display: block;
+        position: absolute;
+        top: 50px;
+        right: 20px;
+    }
+
+    .contacts__yourCar-btn {
+        min-width: 290px;
+        line-height: 18px;
+        font-size: 14px;
+        font-family: 600;
+    }
+
+    .contacts__usedCars-btn {
+        min-width: 290px;
+        margin: 0;
+        line-height: 18px;
+        font-size: 14px;
+        font-family: 600;
+    }
+
+    .contacts__phone {
+        line-height: 18px;
+        font-size: 14px;
+        font-family: 600;
+        left: 25px;
+        line-height: 17px;
+    }
+}
+
+input:focus { outline: none; 
+}
+
